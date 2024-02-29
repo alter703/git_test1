@@ -9,6 +9,7 @@ class Cat:
     def log_cat(self):
         return {'name': self.name, 'age': self.age}
 
+
 class Dog:
     def __init__(self, name: str, age: int):
         self.name = name
@@ -19,6 +20,7 @@ class Dog:
 
     def log_dog(self):
         return {'name': self.name, 'age': self.age}
+
 
 if __name__ == '__main__':
     cat_1 = Cat('Молі', 3)
